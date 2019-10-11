@@ -1,0 +1,78 @@
+
+body ,html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("building.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .heading{
+    font-size: 40px;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .heading1{
+    font-size: 40px;
+    background-image: linear-gradient(19deg, #fc4a1a 0%, #f7b733 100%);
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .center-div{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:50%;
+    transform: translate(-50%,-50%);
+  }
+
+ .navbar{
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 19px;
+ }
+ section{
+   float: right;
+ }
+
+.navbar ul li a:hover{
+
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  
+}
+.flex {
+  display: flex;
+}
